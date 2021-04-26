@@ -1,0 +1,86 @@
+.root {
+  background: #f8f8f8;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 750px) {
+    display: none;
+  }
+
+  .wrapper {
+    height: 80%;
+    width: 75%;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center;
+    .item1,
+    .item2,
+    .item3,
+    .item4,
+    .item5 {
+      height: 100%;
+      width: 100%;
+      background: #84f7b0;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #333333;
+      box-shadow: 0 4px 0 0 rgba(31, 114, 31, 0.4);
+      text-decoration: none;
+      font-size: 1.5rem;
+    }
+    .item1,
+    .item2,
+    .item4,
+    .item5 {
+      cursor: pointer;
+      &:hover {
+        background: #90fcb9;
+        color: #4f4f4f;
+      }
+    }
+    .item1 {
+      grid-row: 1;
+      grid-column: 1;
+    }
+    .item2 {
+      grid-row: 1;
+      grid-column: 3;
+    }
+    .item3 {
+      grid-row: 2;
+      grid-column: 2;
+    }
+    .item4 {
+      grid-row: 3;
+      grid-column: 1;
+    }
+    .item5 {
+      grid-row: 3;
+      grid-column: 3;
+    }
+  }
+}
+
+// スマホ用CSS
+.sp_root {
+  display: none;
+  @media (max-width: 750px) {
+    display: block;
+    background-color: #90fcb9;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sp_wrapper {
+    text-align: center;
+    color: #f8f8f8;
+  }
+}
