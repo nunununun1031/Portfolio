@@ -16,7 +16,7 @@ import BottomBanner from "../organisms/BottomBanner";
 const useStyles = makeStyles({
   table: {
     marginTop: "40px",
-    maxWidth: "600px",
+    maxWidth: 250,
   },
 });
 
