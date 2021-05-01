@@ -2,7 +2,7 @@ import React, { useCallback, useState } from "react";
 import styles from "./Contact.module.scss";
 import { Button, TextField, Typography } from "@material-ui/core";
 import BackButton from "../atoms/BackButton";
-import InputText from "../atoms/InputText";
+// import InputText from "../atoms/InputText";
 import BottomBanner from "../organisms/BottomBanner";
 
 const Contact: React.VFC = () => {
