@@ -6,7 +6,7 @@
 
 ## イメージ
 
-(https://user-images.githubusercontent.com/76551800/116799146-76cfa900-ab31-11eb-9e68-3e4a797ba806.png)
+![Home image](https://user-images.githubusercontent.com/76551800/116799146-76cfa900-ab31-11eb-9e68-3e4a797ba806.png)
 
 シンプルさを意識してます。
 ~~シンプルすぎるかもしれません。~~
@@ -19,7 +19,7 @@
 使用技術
 
 - HTML
-- CSS
+- CSS, SCSS
 - React
 - TypeScript
 - Material-UI
